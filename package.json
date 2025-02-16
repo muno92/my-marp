@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.1"
+  },
+  "dependencies": {
+    "markdown-it-mark": "^4.0.0",
+    "markdown-it-prism": "^2.3.0"
+  },
+  "scripts": {
+    "dev": "marp --watch --pdf --preview $npm_config_file",
+    "build": "marp --pdf $npm_config_file"
+  }
+}

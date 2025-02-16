@@ -1,0 +1,6 @@
+#!/bin/bash
+
+absolute_path=$(realpath $1)
+input_dir=$(dirname $absolute_path)
+
+cd $(dirname $0)/../ && npm run marp -- --allow-local-files --watch --pdf --preview --input-dir $input_dir

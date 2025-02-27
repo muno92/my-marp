@@ -3,6 +3,10 @@
 @import 'gaia';
 @import url('https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-darcula.min.css');
 
-pre {
+pre:is(marp-pre) {
   background: transparent;
+}
+
+pre:is(marp-pre) code {
+  background: #2b2b2b;
 }

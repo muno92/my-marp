@@ -7,10 +7,10 @@ case $1 in
     output_format="--html"
     ;;
   pdf)
-    output_format="--pdf"
+    output_format="--pdf --html"
     ;;
   *)
-    output_format="--pdf"
+    output_format="--pdf --html"
     ;;
 esac
 

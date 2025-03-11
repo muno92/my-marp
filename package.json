@@ -3,7 +3,7 @@
     "@marp-team/marp-cli": "^4.1.2"
   },
   "dependencies": {
-    "markdown-it-prism": "^2.3.0"
+    "markdown-it-prism": "^2.3.1"
   },
   "scripts": {
     "marp": "marp"

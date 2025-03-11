@@ -10,3 +10,7 @@ pre:is(marp-pre) {
 pre:is(marp-pre) code {
   background: #2b2b2b;
 }
+
+.token.comment {
+  color: #999;
+}

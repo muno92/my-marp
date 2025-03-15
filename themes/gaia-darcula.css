@@ -14,3 +14,8 @@ pre:is(marp-pre) code {
 .token.comment {
   color: #999;
 }
+
+.class-name {
+  color: #a9b7c6;
+}
+

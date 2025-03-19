@@ -15,7 +15,6 @@ pre:is(marp-pre) code {
   color: #999;
 }
 
-.class-name {
+.class-name, .language-txt {
   color: #a9b7c6;
 }
-

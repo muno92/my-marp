@@ -18,3 +18,12 @@ pre:is(marp-pre) code {
 .class-name, .language-txt {
   color: #a9b7c6;
 }
+
+.toc {
+  li {
+    opacity: 0.5;
+    &:has(.current) {
+      opacity: 1;
+    }
+  }
+}

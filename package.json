@@ -7,5 +7,9 @@
   },
   "scripts": {
     "marp": "marp"
+  },
+  "overrides": {
+    "puppeteer-core": "^25.10.0",
+    "@xmldom/xmldom": "^0.9.12"
   }
 }
